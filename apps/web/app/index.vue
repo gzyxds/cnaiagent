@@ -265,6 +265,7 @@ definePageMeta({
             <div class="w-full p-2 text-center text-xs text-gray-400">
                 <div class="flex flex-col items-center justify-center gap-1">
                     <span>{{ welcomeInfo.footer }}</span>
+                    <!-- 
                     <div class="flex items-center justify-center gap-2">
                         <a
                             :href="appStore.siteConfig?.copyright.url"
@@ -297,6 +298,7 @@ definePageMeta({
                             </a>
                         </span>
                     </div>
+                    -->
                 </div>
             </div>
         </div>
