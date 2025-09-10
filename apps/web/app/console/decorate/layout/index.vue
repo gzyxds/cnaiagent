@@ -54,7 +54,7 @@ onMounted(() => layoutStore.loadLayoutFromServer());
             <PropertyPanel />
 
             <!-- 右侧预览面板 -->
-            <SafariMockup :use-slot="true" url="www.cnai.art" :height="'100%'">
+            <SafariMockup :use-slot="true" url="https://www.cnai.art" :height="'100%'">
                 <PreviewPanel />
             </SafariMockup>
         </div>
