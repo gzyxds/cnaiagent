@@ -234,7 +234,7 @@ const menuItems = computed<DropdownMenuItem[][]>(() => [
             label: t("console-common.officeLink"),
             icon: "i-lucide-external-link",
             onSelect() {
-                window.open("www.cnai.art", "_blank");
+                window.open("https://www.cnai.art", "_blank");
             },
         },
     ],
@@ -261,7 +261,7 @@ const menuItems = computed<DropdownMenuItem[][]>(() => [
             <div class="flex h-10 items-center justify-between px-3 py-2 text-sm font-medium">
                 <a
                     class="flex items-center gap-1.5"
-                    href="www.cnai.art"
+                    href="https://www.cnai.art"
                     target="_blank"
                 >
                     <Icon name="i-lucide-external-link" />
